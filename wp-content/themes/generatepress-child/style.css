@@ -1,0 +1,170 @@
+/*
+Theme Name:	 	GeneratePress Child
+Theme URI:		https://www.nooijensolutions.nl
+Description:	Child theme for the Nooijen Solutions theme
+Author:			Nooijen Solutions
+Author URI:	 	https://www.nooijensolutions.nl
+Template:		generatepress
+Version:		1.0
+*/
+
+/* Tweaks mobile breakpoint so menu doesn't show on two lines */
+@media (max-width: 1050px) {
+
+	.menu-toggle {
+		max-width: 25vw;
+		float: right;
+	}
+
+	.menu-toggle:before {
+		font-size: 1.5em !important;
+	}
+
+	.mobile-menu { display: none; }
+
+	.main-navigation .menu-toggle {
+		display: block;
+	}
+
+	.main-navigation ul {
+		display: none;
+	}
+
+	.main-navigation.toggled .main-nav > ul {
+		display: block;
+	}
+
+	.main-navigation .main-nav ul ul {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	.main-navigation .main-nav .sf-menu > li {
+		float: none;
+		clear: both;
+		display: block !important;
+		text-align: left !important;
+	}
+
+	.main-navigation .sub-menu.toggled-on,
+	.main-navigation .children.toggled-on {
+		display: block !important;
+		opacity: 1 !important;
+	}
+
+	.main-navigation .dropdown-menu-toggle:before {
+		content: "\f107" !important;
+	}
+
+	.main-navigation .sfHover > a .dropdown-menu-toggle:before {
+		content: "\f106" !important;
+	}
+
+	.main-navigation .menu-item-has-children .dropdown-menu-toggle {
+		float: right;
+	}
+
+	.main-navigation .mobile-bar-items {
+		display: block;
+	}
+
+	.main-navigation .menu li.search-item {
+		display: none !important;
+	}
+
+	.main-navigation .sf-menu > li.menu-item-float-right {
+		float: none !important;
+		display: inline-block;
+	}
+
+	[class*="nav-float-"] .site-header .inside-header > * {
+		float: none;
+		clear: both;
+	}
+}
+
+.menu-toggle:before {
+	font-size: 1.7em !important;
+}
+
+.menu-toggle {
+	margin-right: 8px;
+}
+
+/* Fix GravForm responsiveness*/
+
+@media screen and (min-width: 650px) {
+  .float-left {
+    float: left !important;
+    clear: left !important;
+    width: 50% !important;
+  }
+  .float-right {
+    float: right !important;
+    clear: right !important;
+    width: 50% !important;
+  }
+	#input_3_50, #input_3_51 {
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 641px) {
+  .gform_wrapper .ginput_container span:not(.ginput_price){
+    display: inline-block !important;
+  }
+}
+
+/* From WP Customizer */
+
+span.mobile-menu {
+	display: none !imporant;
+}
+
+.inside-header {
+	display: none;
+}
+
+
+.entry-title {
+	display: none;
+}
+
+@media (max-width: 420px) {
+	.header-image{
+		width: 190px;
+		height: auto !important;
+		top: 10px;
+	}
+}
+
+#footer-widgets .widget-title {
+	margin-bottom: 12px;
+}
+
+.button {
+	border-radius: 2px;
+}
+
+@media screen and (max-width: 1050px) {
+	.main-navigation .main-nav ul li a,  .main-navigation .mobile-bar-items a {
+		line-height: 48px !important;
+	}
+}
+
+@media (min-width: 1050px) {
+  .footer-widget-1,
+  .footer-widget-2,
+  .footer-widget-3,
+  .footer-widget-4 {
+    width: 25% !important;
+  }
+  .footer-widget-5 {
+    width: 100%;
+		margin-top: 10px;
+		padding-top: 14px;
+		border-top: solid 1px #618985;
+  }
+}

@@ -1,0 +1,51 @@
+/*
+|------------------------------------------------------
+|  Hide forbidden options from Page Builder
+|------------------------------------------------------
+*/
+
+/* General */
+
+/* .so-prebuilt-add, */
+/* .so-siteorigin-premium,
+.so-lesson-modal,
+.so-switch-to-standard,
+.so-live-editor,
+.so-history,
+.so-learn,
+.so-content .siteorigin-widget-help-link,
+.so-content .wcssc,
+.so-content .siteorigin-widget-preview,
+.so-row-colors-container
+{
+	display: none !important;
+} */
+
+/* SiteOrigin Widget Main options */
+
+/* .siteorigin-widget-field-icon_color,
+.siteorigin-widget-field-icon,
+.siteorigin-widget-field-design,
+.siteorigin-widget-field-color,
+.siteorigin-widget-field-hover_color,
+.siteorigin-widget-field-font,
+.siteorigin-widget-field-font_size,
+.siteorigin-widget-field-align,
+.siteorigin-widget-field-line_height,
+.siteorigin-widget-field-margin,
+.siteorigin-widget-field-divider,
+.siteorigin-widget-field-order
+{
+	display: none !important;
+} */
+
+/*
+|------------------------------------------------------
+|  Style Pre output for debugging
+|------------------------------------------------------
+*/
+
+/* pre {
+	margin-left: 180px;
+	margin-top: 10px;
+} */
